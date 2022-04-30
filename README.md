@@ -27,3 +27,7 @@ df.loc[(df[‘Color’] == ‘Green’) & (df[‘Shape’] == ‘Rectangle’)]
 ```
 df.keys()
 ```
+13.
+```
+df = df.drop(index=['first', 'second', 'third'])
+```
