@@ -8,10 +8,14 @@ with py7zr.SevenZipFile('folder.7z', mode='r') as z:
 ```
 3. rename column
 ```
-
-```pandas rename .set_axis(['new_name'], axis=1) inplace
+pandas rename .set_axis(['new_name'], axis=1) inplace
+```
 5.  pd.concat([df_Ch2X_P2P, df_Ch2Y_P2P], axis=1)
 6.  df.set_index
-10.  df.reset_index
-11.  df to series = .squeeze
-12.  ```series.empty``` ```DataFrame.empty``` => ```True```
+7.  df.reset_index
+8.  df to series = .squeeze
+9.  ```series.empty``` ```DataFrame.empty``` => ```True```
+10.  dictionary to DataFrame to csv
+```
+pd.DataFrame(dict).to_csv("name.csv")
+```
