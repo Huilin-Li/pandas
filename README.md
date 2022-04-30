@@ -23,3 +23,7 @@ pd.DataFrame(dict).to_csv("name.csv")
 ```
 df.loc[(df[‘Color’] == ‘Green’) & (df[‘Shape’] == ‘Rectangle’)]
 ```
+12.
+```
+df.keys()
+```
