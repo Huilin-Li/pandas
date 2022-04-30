@@ -8,3 +8,4 @@
 4.  df.set_index
 5.  df.reset_index
 6.  df to series = .squeeze
+7.  ```series.empty``` ```DataFrame.empty```
