@@ -19,3 +19,7 @@ pandas rename .set_axis(['new_name'], axis=1) inplace
 ```
 pd.DataFrame(dict).to_csv("name.csv")
 ```
+11.
+```
+df.loc[(df[‘Color’] == ‘Green’) & (df[‘Shape’] == ‘Rectangle’)]
+```
