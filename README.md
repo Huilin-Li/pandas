@@ -31,3 +31,7 @@ df.keys()
 ```
 df = df.drop(index=['first', 'second', 'third'])
 ```
+14.
+```
+format()
+```
