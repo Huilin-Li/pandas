@@ -38,4 +38,5 @@ format()
 15.
 ```
 df.price.duplicated()
+count = df.Courses.unique().size
 ```
