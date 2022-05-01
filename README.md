@@ -35,3 +35,7 @@ df = df.drop(index=['first', 'second', 'third'])
 ```
 format()
 ```
+15.
+```
+df.price.duplicated()
+```
