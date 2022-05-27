@@ -1,4 +1,4 @@
-# pandas_
+# pandas
 1. ```Series/df.diff()``` => [1,5,3,9] --> [NaN, 4, -2, 6]
 2. 
 ```
