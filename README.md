@@ -40,3 +40,8 @@ format()
 df.price.duplicated()
 count = df.Courses.unique().size
 ```
+
+```
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
+```
